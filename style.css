@@ -1,0 +1,147 @@
+body{
+	background-color: rgb(230,230,230);
+	font-family: avenir;
+	color: rgb(50,50,50)
+}
+
+h1{
+	font-size: 25px;
+}
+
+h2{
+	font-size: 20px;
+}
+
+.card{
+	width: 60%;
+	text-align: center;
+	margin: 10px auto 10px auto;
+	padding: 15px 30px;
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.1);
+	border-radius: 4px;
+}
+
+.card2{
+	width: 60%;
+	margin: 10px auto 10px auto;
+	padding: 15px 30px;
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.1)
+	border-radius: 4px;
+}
+
+.element{
+	display: flex;
+	flex: row;
+	justify-content: space-around;
+}
+
+#Arthur{
+	height: 100px;
+	width: 100px;
+	object-fit: cover;
+	border-radius: 50px;
+	box-shadow: 0 0 20px 
+}
+
+#Nationalite{
+	height: 40px;
+	width: 40px;
+	object-fit: cover;
+	border-radius: 100px;
+}
+
+#Naissance{
+	height: 40px;
+	width: 40px;
+	object-fit: cover;
+	border-radius: 100px;
+}
+
+#Ville{
+	height: 40px;
+	width: 40px;
+	object-fit: cover;
+	border-radius: 100px;
+}
+
+#Langues{
+	height: 40px;
+	width: 40px;
+	object-fit: cover;
+	border-radius: 100px;
+}
+
+#Competences{
+	height: 40px;
+	width: 40px;
+	object-fit: cover;
+	border-radius: 100px;
+}
+
+#Tennis{
+	height: 90px;
+	width: 90px;
+	object-fit: cover;
+	border-radius: 100px;
+	box-shadow: 0 0 20px 
+}
+
+#Golf{
+	height: 90px;
+	width: 90px;
+	object-fit: cover;
+	border-radius: 100px;
+	box-shadow: 0 0 20px 
+}
+
+#Ski{
+	height: 90px;
+	width: 90px;
+	object-fit: cover;
+	border-radius: 100px;
+	box-shadow: 0 0 20px 
+}
+
+#Surf{
+	height: 90px;
+	width: 90px;
+	object-fit: cover;
+	border-radius: 100px;
+	box-shadow: 0 0 20px 
+}
+
+#Voyages{
+	height: 90px;
+	width: 90px;
+	object-fit: cover;
+	border-radius: 100px;
+	box-shadow: 0 0 20px 
+}
+
+#Jeux{
+	height: 90px;
+	width: 90px;
+	object-fit: cover;
+	border-radius: 100px;
+	box-shadow: 0 0 20px
+}
+
+@media (max-width: 960px){
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px){
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px){
+  .container {
+    width: 300px;
+  }
+}
